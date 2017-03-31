@@ -37,4 +37,4 @@
 ![image](https://github.com/hawawaBucket/TripleS-Beta/blob/master/imgs_sql/p10.png?raw=true)
 
 #### 数据库
-[link](TripleS-Beta/imgs_sql/crm3.24.sql)
+[link](https://github.com/hawawaBucket/TripleS-Beta/imgs_sql/crm3.24.sql)
