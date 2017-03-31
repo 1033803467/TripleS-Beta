@@ -1,35 +1,22 @@
 package edu.wx.servlet;
 
-import java.io.IOException;
-import java.io.PrintWriter;
-import java.util.Date;
-
-import javax.enterprise.inject.New;
-import javax.security.auth.message.callback.PrivateKeyCallback.Request;
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-
-import org.json.JSONObject;
-
 import com.google.gson.Gson;
-
 import edu.ts.service.CustomerService;
 import edu.ts.service.FeedbackService;
 import edu.ts.service.impl.CustomerServiceImpl;
 import edu.ts.service.impl.FeedbackServiceImpl;
 import edu.ts.util.AdvancedUtil;
 import edu.ts.util.CommonUtil;
-import edu.ts.util.WeixinUtil;
-import edu.wx.message.template.Data;
-import edu.wx.message.template.Data_FbTime;
-import edu.wx.message.template.Data_First;
-import edu.wx.message.template.Data_HandleMsg;
-import edu.wx.message.template.Data_HandleTime;
-import edu.wx.message.template.Data_Remark;
-import edu.wx.message.template.FeedbackTemplate;
+import edu.wx.message.template.*;
 import edu.wx.pojo.WxInfo;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.Date;
 
 public class HandleFeedbackServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

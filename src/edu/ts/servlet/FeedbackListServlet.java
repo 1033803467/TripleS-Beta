@@ -1,17 +1,5 @@
 package edu.ts.servlet;
 
-import java.io.IOException;
-import java.io.PrintWriter;
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.jms.Session;
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
-
 import edu.ts.entity.Customer;
 import edu.ts.entity.Feedback;
 import edu.ts.entity.FeedbackItem;
@@ -19,6 +7,14 @@ import edu.ts.service.CustomerService;
 import edu.ts.service.FeedbackService;
 import edu.ts.service.impl.CustomerServiceImpl;
 import edu.ts.service.impl.FeedbackServiceImpl;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class FeedbackListServlet extends HttpServlet {
 

@@ -1,19 +1,15 @@
 package edu.wx.servlet;
 
-import edu.ts.entity.Feedback;
 import edu.ts.service.FeedbackService;
 import edu.ts.service.impl.FeedbackServiceImpl;
 
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
-import com.sun.mail.iap.Response;
-
 import java.io.IOException;
 import java.io.PrintWriter;
+
 
 /**
  * Created by jose on 2017/3/8.

@@ -110,7 +110,7 @@ function del() {
 											</tr>
 										</thead>
 										<tbody>
-										<!--<c:forEach var="list" items="${listSet}" varStatus="st">
+										<c:forEach var="list" items="${listSet}" varStatus="st">
 											<c:choose>
 												<c:when test="${list.getcGender() == 0}">
 													<c:set value="男" var="gender"/>
@@ -160,7 +160,7 @@ function del() {
 								            }
 								
 								       </script>
-											</c:forEach>-->
+											</c:forEach>
 										</tbody>
 									</table>
 								</div>
