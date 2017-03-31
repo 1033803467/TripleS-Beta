@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <display-name></display-name>
+    <!-- 配置登陆过滤器 -->
+    <!--  <filter>
+     <filter-name>login</filter-name>
+     <filter-class>edu.ts.servlet.LoginFilter</filter-class>
+    </filter>
+    <filter-mapping>
+     <filter-name>login</filter-name>
+     <url-pattern>/jsp/*</url-pattern>
+    </filter-mapping>-->
+    <servlet>
+        <description>This is the description of my J2EE component</description>
+        <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>edu.ts.servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <description>This is the description of my J2EE component</description>
+        <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>AddCustomerServlet</servlet-name>
+        <servlet-class>edu.ts.servlet.AddCustomerServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <description>This is the description of my J2EE component</description>
+        <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>PageServlet</servlet-name>
+        <servlet-class>edu.ts.servlet.PageServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <description>This is the description of my J2EE component</description>
+        <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>ModifyCustomerServlet</servlet-name>
+        <servlet-class>edu.ts.servlet.ModifyCustomerServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <description>This is the description of my J2EE component</description>
+        <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>DelCustomerServlet</servlet-name>
+        <servlet-class>edu.ts.servlet.DelCustomerServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <description>This is the description of my J2EE component</description>
+        <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>DetectFaceServlet</servlet-name>
+        <servlet-class>edu.ts.servlet.DetectFaceServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <description>This is the description of my J2EE component</description>
+        <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>SearchCustomerServlet</servlet-name>
+        <servlet-class>edu.ts.servlet.SearchCustomerServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <description>This is the description of my J2EE component</description>
+        <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>RecommenderServlet</servlet-name>
+        <servlet-class>edu.ts.servlet.RecommenderServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <description>This is the description of my J2EE component</description>
+        <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>GoodDetailServlet</servlet-name>
+        <servlet-class>edu.ts.servlet.GoodDetailServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <description>This is the description of my J2EE component</description>
+        <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>OrderDetailServlet</servlet-name>
+        <servlet-class>edu.ts.servlet.OrderDetailServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <description>This is the description of my J2EE component</description>
+        <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>OrderServlet</servlet-name>
+        <servlet-class>edu.ts.servlet.OrderServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <description>This is the description of my J2EE component</description>
+        <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>CustomerDetailServlet</servlet-name>
+        <servlet-class>edu.ts.servlet.CustomerDetailServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <description>This is the description of my J2EE component</description>
+        <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>edu.ts.servlet.RegisterServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <description>This is the description of my J2EE component</description>
+        <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>FeedbackListServlet</servlet-name>
+        <servlet-class>edu.ts.servlet.FeedbackListServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <description>This is the description of my J2EE component</description>
+        <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>UploadServlet</servlet-name>
+        <servlet-class>edu.ts.servlet.UploadServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <description>This is the description of my J2EE component</description>
+        <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>edu.ts.servlet.LogoutServlet</servlet-class>
+    </servlet>
+
+
+
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AddCustomerServlet</servlet-name>
+        <url-pattern>/AddCustomerServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PageServlet</servlet-name>
+        <url-pattern>/PageServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ModifyCustomerServlet</servlet-name>
+        <url-pattern>/ModifyCustomerServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DelCustomerServlet</servlet-name>
+        <url-pattern>/DelCustomerServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DetectFaceServlet</servlet-name>
+        <url-pattern>/DetectFaceServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SearchCustomerServlet</servlet-name>
+        <url-pattern>/SearchCustomerServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RecommenderServlet</servlet-name>
+        <url-pattern>/RecommenderServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>GoodDetailServlet</servlet-name>
+        <url-pattern>/GoodDetailServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>OrderDetailServlet</servlet-name>
+        <url-pattern>/OrderDetailServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>OrderServlet</servlet-name>
+        <url-pattern>/OrderServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CustomerDetailServlet</servlet-name>
+        <url-pattern>/CustomerDetailServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/RegisterServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>FeedbackListServlet</servlet-name>
+        <url-pattern>/FeedbackListServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>UploadServlet</servlet-name>
+        <url-pattern>/UploadServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/LogoutServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddFeedbackServlet</servlet-name>
+        <servlet-class>edu.wx.servlet.AddFeedbackServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddFeedbackServlet</servlet-name>
+        <url-pattern>/wx/AddFeedbackServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>BindCustomerServlet</servlet-name>
+        <servlet-class>edu.wx.servlet.BindCustomerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BindCustomerServlet</servlet-name>
+        <url-pattern>/wx/BindCustomerServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>CoreServlet</servlet-name>
+        <servlet-class>edu.wx.servlet.CoreServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CoreServlet</servlet-name>
+        <url-pattern>/wx/CoreServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ModifyPasswordServlet</servlet-name>
+        <servlet-class>edu.wx.servlet.ModifyPasswordServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ModifyPasswordServlet</servlet-name>
+        <url-pattern>/wx/ModifyPasswordServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>OAuthServlet</servlet-name>
+        <servlet-class>edu.wx.servlet.OAuthServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>OAuthServlet</servlet-name>
+        <url-pattern>/wx/OAuthServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>RegisterCustomerServlet</servlet-name>
+        <servlet-class>edu.wx.servlet.RegisterCustomerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegisterCustomerServlet</servlet-name>
+        <url-pattern>/wx/RegisterCustomerServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>UploadFaceServlet</servlet-name>
+        <servlet-class>edu.wx.servlet.UploadFaceServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>HandleFeedbackServlet</servlet-name>
+        <servlet-class>edu.wx.servlet.HandleFeedbackServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HandleFeedbackServlet</servlet-name>
+        <url-pattern>/wx/HandleFeedbackServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <description>This is the description of my J2EE component</description>
+        <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>CheckAdminServlet</servlet-name>
+        <servlet-class>edu.ts.servlet.CheckAdminServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <description>This is the description of my J2EE component</description>
+        <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>ChartServlet</servlet-name>
+        <servlet-class>edu.ts.servlet.ChartServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <description>This is the description of my J2EE component</description>
+        <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>ImportFileServlet</servlet-name>
+        <servlet-class>edu.ts.servlet.ImportFileServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <description>This is the description of my J2EE component</description>
+        <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>SearchGoodServlet</servlet-name>
+        <servlet-class>edu.ts.servlet.SearchGoodServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <description>This is the description of my J2EE component</description>
+        <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>CheckModifyServlet</servlet-name>
+        <servlet-class>edu.ts.servlet.CheckModifyServlet</servlet-class>
+    </servlet> <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CheckAddServlet</servlet-name>
+    <servlet-class>edu.ts.servlet.CheckAddServlet</servlet-class>
+</servlet>
+
+
+
+    <servlet-mapping>
+        <servlet-name>UploadFaceServlet</servlet-name>
+        <url-pattern>/wx/UploadFaceServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CheckAdminServlet</servlet-name>
+        <url-pattern>/CheckAdminServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CheckModifyServlet</servlet-name>
+        <url-pattern>/CheckModifyServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CheckAddServlet</servlet-name>
+        <url-pattern>/CheckAddServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ChartServlet</servlet-name>
+        <url-pattern>/ChartServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ImportFileServlet</servlet-name>
+        <url-pattern>/ImportFileServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SearchGoodServlet</servlet-name>
+        <url-pattern>/SearchGoodServlet</url-pattern>
+    </servlet-mapping>
+    <welcome-file-list>
+        <welcome-file>/jsp/login.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>

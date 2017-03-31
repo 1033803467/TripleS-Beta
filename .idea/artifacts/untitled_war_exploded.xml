@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="untitled:war exploded">
+    <output-path>D:/Apache Software Foundation/Tomcat 7.0/webapps/TripleS-Beta</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="TripleS-Beta/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="TripleS-Beta" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
