@@ -35,3 +35,6 @@
 ##### 注册，绑定会员，查看记录，反馈
 ![image](https://github.com/hawawaBucket/TripleS-Beta/blob/master/imgs_sql/p8.png?raw=true)
 ![image](https://github.com/hawawaBucket/TripleS-Beta/blob/master/imgs_sql/p10.png?raw=true)
+
+#### 数据库
+[link](TripleS-Beta/imgs_sql/crm3.24.sql)
